@@ -12,10 +12,6 @@
     font-style: normal;
 }
 
-/* .body {
-    width: 1440px;
-    margin: 0 auto;
-} */
 .header {
     /* background-color: #ff990035; */
     width: 1440px;
@@ -94,7 +90,6 @@
     margin-right: 165px;
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
-
 }
 
 .banner-image img {
@@ -306,38 +301,82 @@
         flex-direction: column-reverse;
     }
 
-    .sponosrs {
+    /* current work */
+    .banner-content {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+
+    .banner-image {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 0;
+        background-image: url('../images/Circle\ design.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .banner-image img {
         width: 100%;
+        padding: 0px;
+
+    }
+
+    /* end current work */
+    .sponosrs {
+        max-width: 100%;
         margin-top: 69px;
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 50px;
         text-align: center;
     }
+
     .sponosrs-logos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .popular-products{
-        width: 100%;
+
+    .popular-products {
+        max-width: 100%;
+        margin: auto;
     }
-    .product-cards{
+
+    .product-cards {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
     }
-    .featured-product{
+
+    .card-1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .featured-product {
         flex-direction: column-reverse;
         margin-top: 50px;
     }
-    .featured-product-content{
+
+    .featured-product-content {
         text-align: center;
     }
-    .featired-product-image img{
+
+    .featired-product-image img {
         width: 100%;
         margin-left: 10px;
         padding-right: 20px;
     }
-    .footer{
-        width: 100%;
+
+    .footer {
+        max-width: 100%;
     }
 }
